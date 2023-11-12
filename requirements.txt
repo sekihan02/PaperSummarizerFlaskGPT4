@@ -1,0 +1,6 @@
+Flask
+Werkzeug
+pdfplumber
+python-dotenv
+openai==1.2.3
+tiktoken

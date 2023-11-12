@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload a PDF to Summarize</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="fileInput" style="display: none;">
+            <div id="dropArea">ここにファイルをドラッグアンドドロップ、またはクリックしてファイルを選択</div>
+            <!-- ファイル名を表示するための要素を追加 -->
+            <div id="fileName"></div>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+    <!-- JavaScriptの追加 -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
