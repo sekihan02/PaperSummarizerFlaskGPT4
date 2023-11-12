@@ -5,3 +5,5 @@
 - 生成結果をgpt-3.5-turbo-1106を使用して日本語に翻訳して出力します
 
 ![PaperSummarizerFlaskGPT4](./PaperSummarizerFlaskGPT4.gif)
+出力結果
+![result.PNG](./result.PNG)
